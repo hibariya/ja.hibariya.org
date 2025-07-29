@@ -216,6 +216,17 @@ h3 {
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
+.course-image {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-image svg {
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+}
+
 .pricing-card h3 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
